@@ -1,0 +1,188 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #000000;
+        }
+        body{
+            display: flex;
+            gap: 0px;
+        }
+        
+        ul{
+            
+            list-style: none;
+           display: flex;
+           flex-direction: column;
+            justify-content: baseline;
+            align-items: end;
+            gap: .2rem;
+            background-color: #000000;
+            color: white;
+            width: 380px;
+            height: 100%;
+            border: 1px solid gray;
+        }
+       
+        li a{
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+            display: inline-block;
+            display: flex;
+            align-items: center;
+            gap: .6rem;
+        }
+        li a:hover{
+            background-color:  #71767b;
+            border-radius: 50%;
+        }
+        li a > svg{
+            border-radius: 100%;
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            height: 100vh;
+            border: 1px solid gray;
+            padding: 15px;
+        }
+        .settings{
+            text-decoration: none;
+            color: #fff;
+        }
+        article > span{
+            color: #e7e9ea;
+           font-size: 1.2em;
+           font-weight: bold;
+           font-family: sans-serif;
+        }
+       
+        .explore{
+            display: flex;
+          align-items: center;
+          justify-content: space-between;
+          position: fixed;  
+          top: 0;
+         
+          background-image: linear-gradient(to bottom,  transparent);
+          width: 49%;
+          height: 5vh;
+        }
+        .content{
+            display: flex;
+            gap: 10px;
+           
+        }
+        .content img{
+            width: 48px;
+            height: 48px;
+            margin-top: 25px;
+        }
+       
+        .info1{
+            width: 206px;
+            height: 9vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            gap: 4px;
+
+        }
+        .info1 > img{
+            width: 16px;
+            height: 16px;
+            margin-bottom: 25px;
+        }
+        .info1 > span{
+            color: white;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        .info1 > p{
+            color: #71767b;
+            font-family: sans-serif;
+        }
+        .info2{
+            color: #fff;
+            
+        }
+        .content2{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .box-video{
+            border: 1px solid #71767b;
+            border-radius: 4px;
+        }
+        .video{
+            width: 100%;
+            height: 50vh;
+        }
+        .coments{
+            display: flex;
+        }
+        .coments > p{
+            color: #71767b;
+        }
+        .coments > svg{
+            color: #71767b;
+            width: 18.75px;
+            height: 18.75px;
+        }
+        .retwets{
+            display: flex;
+        }
+        .retwets > p{
+            color: #71767b;
+        }
+        .retwets > svg{
+            color: #71767b;
+            width: 18.75px;
+            height: 18.75px;
+        }
+        .like{
+            display: flex;
+        }
+        .like > p{
+            color: #71767b;
+        }
+        .like > svg{
+            color: #71767b;
+            width: 18.75px;
+            height: 18.75px;
+        }
+        .graphcs{
+            display: flex;
+        }
+        .graphcs > p{
+            color: #71767b;
+        }
+        .graphcs > svg{
+            color: #71767b;
+            width: 18.75px;
+            height: 18.75px;
+        }
+        .share > svg{
+            color: #71767b;
+            width: 18.75px;
+            height: 18.75px;
+        }
+        .interactions{
+            display: flex;
+            justify-content: space-around;
+        }
+       .box-content{
+        border-bottom: 1px solid #71767b;
+        
+       }
+
+
+         
+        
+
+
+        
